@@ -28,9 +28,11 @@ public class BeerInventoryController {
     List<BeerInventoryDto> listBeersById(@PathVariable UUID beerId){
         log.debug("Finding Inventory for beerId:" + beerId);
 
-        return beerInventoryRepository.findAllByBeerId(beerId)
+        List<BeerInventoryDto> beers =  beerInventoryRepository.findAllByBeerId(beerId)
                 .stream()
                 .map(beerInventoryMapper::beerInventoryToBeerInventoryDto)
                 .collect(Collectors.toList());
+        log.debug("+++++++++++++++++++++\n"+beers);
+        return beers;
     }
 }

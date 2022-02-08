@@ -23,6 +23,14 @@ public class BeerInvntoryBootstrap implements CommandLineRunner {
     public static final UUID BEER_2_UUID = UUID.fromString("a712d914-61ea-4623-8bd0-32c0f6545bfd");
     public static final UUID BEER_3_UUID = UUID.fromString("026cc3c8-3a0c-4083-a05b-e908048c1b08");
 
+//    Heiniken ALLBEERSFOUND 5456319d-7b6f-41e0-a6e3-2365f3a6d196
+//    Guiness ALLBEERSFOUND f404a711-c998-4b85-99b9-f1cdf52cda37
+//    Stella Artoi ALLBEERSFOUND 10de133a-0dea-42d7-a1bf-ea4d77bcf8f2
+
+//    public static final UUID BEER_1_UUID = UUID.fromString("5456319d-7b6f-41e0-a6e3-2365f3a6d196");
+//    public static final UUID BEER_2_UUID = UUID.fromString("f404a711-c998-4b85-99b9-f1cdf52cda37");
+//    public static final UUID BEER_3_UUID = UUID.fromString("10de133a-0dea-42d7-a1bf-ea4d77bcf8f2");
+
     private final BeerInventoryRepository beerInventoryRepository;
 
     @Override
