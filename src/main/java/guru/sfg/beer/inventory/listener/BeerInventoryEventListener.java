@@ -1,4 +1,4 @@
-package guru.sfg.beer.inventory.service.listener;
+package guru.sfg.beer.inventory.listener;
 
 import guru.springframework.events.NewInventoryEvent;
 

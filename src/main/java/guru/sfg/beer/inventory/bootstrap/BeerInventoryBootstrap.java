@@ -1,11 +1,10 @@
-package guru.sfg.beer.inventory.service.bootstrap;
+package guru.sfg.beer.inventory.bootstrap;
 
-import guru.sfg.beer.inventory.service.domain.BeerInventory;
-import guru.sfg.beer.inventory.service.repositories.BeerInventoryRepository;
+import guru.sfg.beer.inventory.domain.BeerInventory;
+import guru.sfg.beer.inventory.repositories.BeerInventoryRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.CommandLineRunner;
-import org.springframework.stereotype.Component;
 
 import java.util.UUID;
 
